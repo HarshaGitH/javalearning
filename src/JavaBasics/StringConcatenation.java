@@ -10,6 +10,7 @@ public class StringConcatenation {
 		
 		String x = "Hello";
 		String y = "World";
+		String z = "abc";
 		
 		double c = 12.33;
 		double d = 10.33;

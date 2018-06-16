@@ -37,7 +37,7 @@ public class ArrayConcept {
 			System.out.println(S[1]);
 			System.out.println(S.length);
 
-//Object array I can store differnt data types-- Interger,string  others in the same array
+//Object array I can store different data types-- Integer,string  others in the same array
 		
 		Object ob[] = new Object[8];
 		ob[0]= "Tom";

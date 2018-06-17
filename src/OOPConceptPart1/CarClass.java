@@ -18,14 +18,35 @@ public class CarClass {
 		
 		CarClass a = new CarClass(); // a-Object Reference variable right side- its the object creation.
 		CarClass b = new CarClass();
+		CarClass c = new CarClass();
          
 		a.model = 2014;
 		a.wheel = 4;
 		
-		System.out.println(a.model);
-		
 		b.model=2015;
 		b.wheel=4;
+		
+		c.model =2017;
+		c.wheel = 4;
+		
+		System.out.println("Before shifting the refences");
+		System.out.println(a.model);
+		System.out.println(b.model);
+		System.out.println(b.model);
+		
+		System.out.println("After shifting the refences");
+		a=b; // 2015
+		b=c; // 2017
+		c=a; // 2015
+		System.out.println(a.model);
+		System.out.println(b.model);
+		System.out.println(c.model);
+		
+		
+		
+		
+		
+		
 	}
 
 }

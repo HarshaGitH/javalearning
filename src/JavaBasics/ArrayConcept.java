@@ -10,6 +10,7 @@ public class ArrayConcept {
 		//stores only similar  datatypes--To overcome we use collections
 		
 		int i[] = new int[4];
+	 // int []i = new int[4];
 	    i[0]=10;
 	    i[1]=20;
 	    i[2]=30;

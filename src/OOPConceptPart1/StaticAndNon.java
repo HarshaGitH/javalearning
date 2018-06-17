@@ -20,6 +20,7 @@ public class StaticAndNon {
 	    int f = i;
 	    System.out.println(i);
 	    
+	    //Nonstatic always should be 
 
 	}
 	

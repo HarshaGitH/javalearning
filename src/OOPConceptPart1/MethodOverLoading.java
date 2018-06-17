@@ -25,11 +25,13 @@ public class MethodOverLoading {
 	public  static  void main() {
 		System.out.println("Main");
 	}
+	
+	
    public void m1() {
 	   System.out.println("m1- No args");
    }
    
-   
+  
    public void m1(int i) {
 	   System.out.println("m1- 1 args");
 	   System.out.println(i);

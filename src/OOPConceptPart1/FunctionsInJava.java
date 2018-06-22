@@ -42,25 +42,4 @@ public class FunctionsInJava {
 		int c = a/b;
 		return c;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-}
+	}
